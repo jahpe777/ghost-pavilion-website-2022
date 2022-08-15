@@ -5,22 +5,20 @@ const ListenPage = () => {
     <div className="listenpage">
       <section className="bandcamp-embeds">
         <iframe
-          title="bleed-on-sunset"
-          border="0"
+          title="ghost-pavilion"
           width="350px"
-          height="442px"
-          src="https://bandcamp.com/EmbeddedPlayer/track=77723839/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+          height="470px"
+          src="https://bandcamp.com/EmbeddedPlayer/album=3819933139/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/"
           seamless
         >
-          <a href="http://ghostpavilion.bandcamp.com/track/bleed-on-sunset">
-            Bleed on Sunset by Ghost Pavilion
+          <a href="https://ghostpavilion.bandcamp.com/album/ghost-pavilion">
+            Ghost Pavilion by Ghost Pavilion
           </a>
         </iframe>
       </section>
       <section className="bandcamp-embeds">
         <iframe
           title="bleed-on-sunset"
-          border="0"
           width="350px"
           height="442px"
           src="https://bandcamp.com/EmbeddedPlayer/track=77723839/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
@@ -34,7 +32,6 @@ const ListenPage = () => {
       <section className="bandcamp-embeds">
         <iframe
           title="oblivion"
-          border="0"
           width="350px"
           height="470px"
           src="https://bandcamp.com/EmbeddedPlayer/album=2411569131/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
@@ -48,7 +45,6 @@ const ListenPage = () => {
       <section className="bandcamp-embeds">
         <iframe
           title="traces"
-          border="0"
           width="350"
           height="470px"
           src="https://bandcamp.com/EmbeddedPlayer/album=3727972298/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"

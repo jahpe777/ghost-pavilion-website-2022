@@ -3,9 +3,11 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
+  FaTiktok,
   FaYoutube,
-  FaSoundcloud,
+  FaReddit,
   FaBandcamp,
+  FaSoundcloud,
   FaEnvelope,
 } from "react-icons/fa";
 import React from "react";
@@ -27,6 +29,15 @@ const Footer: React.FC<React.HTMLAttributes<any>> = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            href="https://www.instagram.com/ghost_pavilion"
+          >
+            <FaInstagram className="icons" />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://www.twitter.com/ghost_pavilion"
           >
             <FaTwitter className="icons" />
@@ -36,9 +47,9 @@ const Footer: React.FC<React.HTMLAttributes<any>> = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.instagram.com/ghost_pavilion"
+            href="https://www.tiktok.com/@ghostpavilion"
           >
-            <FaInstagram className="icons" />
+            <FaTiktok className="icons" />
           </a>
         </li>
         <li>
@@ -54,9 +65,9 @@ const Footer: React.FC<React.HTMLAttributes<any>> = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://soundcloud.com/ghost-pavilion"
+            href="https://www.reddit.com/r/GhostPavilion/"
           >
-            <FaSoundcloud className="icons" />
+            <FaReddit className="icons" />
           </a>
         </li>
         <li>
@@ -72,7 +83,16 @@ const Footer: React.FC<React.HTMLAttributes<any>> = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:info@ghostpavilion.com"
+            href="https://soundcloud.com/ghost-pavilion"
+          >
+            <FaSoundcloud className="icons" />
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:ghostpavilionmusic@gmail.com"
           >
             <FaEnvelope className="icons" />
           </a>

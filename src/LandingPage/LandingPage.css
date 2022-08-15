@@ -1,7 +1,7 @@
 div {
   font-size: 22px;
   padding: 0;
-  color: #000;
+  color: #f81a17;
   font-family: "Fugue", verdana;
   text-transform: uppercase;
   text-align: center;
@@ -14,9 +14,9 @@ img {
 }
 
 img:hover {
-  -moz-box-shadow: 0 0 1000px red;
-  -webkit-box-shadow: 0 0 1000px red;
-  box-shadow: 0 0 1000px red;
+  -moz-box-shadow: 0 0 1000px #f81a17;
+  -webkit-box-shadow: 0 0 1000px #f81a17;
+  box-shadow: 0 0 1000px #f81a17;
 }
 
 .landingpage-video {

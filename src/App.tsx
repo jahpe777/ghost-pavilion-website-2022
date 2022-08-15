@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
@@ -13,16 +13,22 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-Header">
-        <Route path="/" element={<NavBar />} />
+        <Routes>
+          <Route path="/*" element={<NavBar />} />
+        </Routes>
       </header>
       <main className="Header">
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/watch" element={<WatchPage />} />
-        <Route path="/listen" element={<ListenPage />} />
-        <Route path="/speak" element={<SpeakPage />} />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/watch" element={<WatchPage />} />
+          <Route path="/listen" element={<ListenPage />} />
+          <Route path="/speak" element={<SpeakPage />} />
+        </Routes>
       </main>
       <footer>
-        <Route path="/" element={<Footer />} />
+        <Routes>
+          <Route path="/*" element={<Footer />} />
+        </Routes>
       </footer>
     </div>
   );
