@@ -8,11 +8,11 @@ const ListenPage = () => {
           title="ghost-pavilion"
           width="350px"
           height="470px"
-          src="https://bandcamp.com/EmbeddedPlayer/album=3819933139/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/"
+          src="https://bandcamp.com/EmbeddedPlayer/track=3117515333/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
           seamless
         >
-          <a href="https://ghostpavilion.bandcamp.com/album/ghost-pavilion">
-            Ghost Pavilion by Ghost Pavilion
+          <a href="https://ghostpavilion.bandcamp.com/track/fallout-2">
+            Fallout by Ghost Pavilion
           </a>
         </iframe>
       </section>
@@ -20,7 +20,7 @@ const ListenPage = () => {
         <iframe
           title="bleed-on-sunset"
           width="350px"
-          height="442px"
+          height="470px"
           src="https://bandcamp.com/EmbeddedPlayer/track=77723839/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
           seamless
         >

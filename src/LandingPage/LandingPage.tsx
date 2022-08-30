@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
-import video from "../../src/Video/Fallout (clip).mp4";
-import image from "../../src/Images/GP_300DPI.jpeg";
+import video from "../../src/Video/Fallout_clip.mp4";
+import image from "../../src/Images/GP_Fallout_300DPI.jpeg";
 
 const LandingPage = () => {
   return (
