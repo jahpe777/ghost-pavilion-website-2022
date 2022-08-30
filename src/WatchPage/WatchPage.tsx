@@ -3,19 +3,19 @@ import "./WatchPage.css";
 const WatchPage = () => {
   return (
     <div className="watchpage">
-      <section className="fallout">
+      <section className="video-spacing">
         <iframe
           className="videos"
           title="fallout"
           width="46.3%"
           height="473"
-          // src="https://www.youtube.com/watch?v=eTaPTcasXYc&list=PL3t0Jj5omGP5txirQfAhWFHuVfVp3G-nJ&index=5"
+          src="https://www.youtube.com/embed/2rXg6gEFyTo"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
       </section>
-      <section className="black-and-blue">
+      <section className="video-spacing">
         <iframe
           className="videos"
           title="blackandblue"
@@ -27,7 +27,7 @@ const WatchPage = () => {
           allowFullScreen
         ></iframe>
       </section>
-      <section className="vacant-stories">
+      <section className="video-spacing">
         <iframe
           className="videos"
           title="vacantstories"
@@ -39,7 +39,7 @@ const WatchPage = () => {
           allowFullScreen
         ></iframe>
       </section>
-      <section className="live-video">
+      <section className="video-spacing">
         <iframe
           className="videos"
           title="livevideo"
