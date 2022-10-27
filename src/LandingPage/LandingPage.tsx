@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./LandingPage.css";
-import video from "../../src/Video/Fallout_clip.mp4";
-import image from "../../src/Images/GP_Fallout_300DPI.jpeg";
+import video from "../../src/Videos/Serves You Right_edit.mp4";
+import image from "../../src/Images/GP_300DPI.jpeg";
 
 const LandingPage = () => {
   return (
@@ -10,12 +10,16 @@ const LandingPage = () => {
         <source src={video} type="video/mp4" />
       </video>
       <section className="image-landingpage">
-        <Link to="/listen">
+        <a
+          href="https://ghostpavilion.bandcamp.com/album/ghost-pavilion"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={image} alt="Ghost Pavilion Artwork" />
-        </Link>
-        <div>
-          Publicist - Bobby Cleveland - bobbycleveland@babyrobotmedia.com
-        </div>
+        </a>
+        {/* <Link to="/watch">
+          <img src={image} alt="Ghost Pavilion Artwork" />
+        </Link> */}
       </section>
     </div>
   );

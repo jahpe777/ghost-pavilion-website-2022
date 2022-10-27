@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./SpeakPage.css";
 
-import Fallout from "../Data/Fallout";
+import quotes from "../Data/ServesYouRight";
 
 const getLocalStorage = () => {
   let items = localStorage.getItem("items");
@@ -18,10 +18,10 @@ const SpeakPage = () => {
 
   const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const randomItem = Math.floor(Math.random() * Fallout.length);
+    const randomItem = Math.floor(Math.random() * quotes.length);
     const newItem = {
       id: new Date().getTime().toString(),
-      title: Fallout[randomItem],
+      title: quotes[randomItem],
     };
     setItems([newItem, ...items]);
     setText("");

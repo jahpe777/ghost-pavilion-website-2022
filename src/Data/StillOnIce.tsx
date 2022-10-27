@@ -1,4 +1,4 @@
-const builtOnIce = [
+const stillOnIce = [
   `Nothing is ever really lost to us as long as we remember it.`,
   `Take care of all your memories. For you cannot relive them.`,
   `A million feelings. A thousand thoughts. A hundred memories. All for one person.`,
@@ -20,4 +20,4 @@ const builtOnIce = [
   `Scars have the strange power to remind us that our past is real.`,
   `When you are gone, the only truly important thing you will leave behind are the memories you’ve created. How do you want to be remembered?`,
 ];
-export default builtOnIce;
+export default stillOnIce;

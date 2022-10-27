@@ -24,12 +24,13 @@ section.navbar {
 }
 
 a {
-  color: red;
+  /* color: red; */
+  color: white;
 }
 
 a:hover {
   /* color: #b3fcc4; */
-  color: white;
+  color: purple;
 }
 
 @media screen and (max-width: 767px) {

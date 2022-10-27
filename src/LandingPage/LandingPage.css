@@ -1,7 +1,8 @@
 div {
   font-size: 22px;
   padding: 0;
-  color: #f81a17;
+  /* color: #f81a17; */
+  color: white;
   font-family: "Fugue", verdana;
   text-transform: uppercase;
   text-align: center;
@@ -14,9 +15,12 @@ img {
 }
 
 img:hover {
-  -moz-box-shadow: 0 0 1000px #f81a17;
+  /* -moz-box-shadow: 0 0 1000px #f81a17;
   -webkit-box-shadow: 0 0 1000px #f81a17;
-  box-shadow: 0 0 1000px #f81a17;
+  box-shadow: 0 0 1000px #f81a17; */
+  -moz-box-shadow: 0 0 1000px white;
+  -webkit-box-shadow: 0 0 1000px white;
+  box-shadow: 0 0 1000px white;
 }
 
 .landingpage-video {
@@ -28,6 +32,12 @@ img:hover {
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index: -1;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
 }
 
 @media screen and (max-width: 415px) {

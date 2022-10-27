@@ -8,6 +8,19 @@ const ListenPage = () => {
           title="ghost-pavilion"
           width="350px"
           height="470px"
+          src="https://bandcamp.com/EmbeddedPlayer/album=3819933139/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+          seamless
+        >
+          <a href="https://ghostpavilion.bandcamp.com/track/fallout-2">
+            Ghost Pavilion by Ghost Pavilion
+          </a>
+        </iframe>
+      </section>
+      <section className="bandcamp-embeds">
+        <iframe
+          title="ghost-pavilion-fallout"
+          width="350px"
+          height="470px"
           src="https://bandcamp.com/EmbeddedPlayer/track=3117515333/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
           seamless
         >
