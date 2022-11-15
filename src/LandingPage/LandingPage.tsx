@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
 import "./LandingPage.css";
-import video from "../../src/Videos/Serves You Right_edit.mp4";
+import video from "../../src/Videos/Last Season_edit.mp4";
 import image from "../../src/Images/GP_300DPI.jpeg";
 
 const LandingPage = () => {
