@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./SpeakPage.css";
 
-import quotes from "../Data/Hush";
+import quotes from "../Data/AllAlong";
 
 const getLocalStorage = () => {
   let items = localStorage.getItem("items");

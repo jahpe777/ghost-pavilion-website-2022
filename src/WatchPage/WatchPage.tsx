@@ -6,6 +6,18 @@ const WatchPage = () => {
       <section className="video-spacing">
         <iframe
           className="videos"
+          title="allalong"
+          width="46.3%"
+          height="473"
+          src="https://www.youtube.com/embed/tjZYOAoTwCg"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </section>
+      <section className="video-spacing">
+        <iframe
+          className="videos"
           title="hush"
           width="46.3%"
           height="473"
